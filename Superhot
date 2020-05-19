@@ -1,24 +1,22 @@
-{
-  "embed": {
-      "title": "Superhot",
-      "description": "Superhot is an independent first-person shooter video game developed and published by Superhot Team.",
-      "url": "https://meatspin.com",
-      "color": 1405367,
-      "timestamp": "2020-05-19T03:10:36.298Z",
-      "footer": {
-        "icon_url": "https://ksr-ugc.imgix.net/assets/011/609/376/9118166d49e15455e574b7b5c20d2a96_original.png?ixlib=rb-2.1.0&crop=faces&w=1552&h=873&fit=crop&v=1463685320&auto=format&frame=1&q=92&s=f9be7e1636e6f78e1c9aafe4b78c200c",
-        "text": "Turk Troll"
-      },
-      "thumbnail": {
-        "url": "https://meatspin.com"
-      },
-      "image": {
-        "url": "https://ksr-ugc.imgix.net/assets/011/609/376/9118166d49e15455e574b7b5c20d2a96_original.png?ixlib=rb-2.1.0&crop=faces&w=1552&h=873&fit=crop&v=1463685320&auto=format&frame=1&q=92&s=f9be7e1636e6f78e1c9aafe4b78c200c"
-      },
-      "author": {
-        "name": "Superhot Studio",
-        "url": "https://superhotgame.com",
-        "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png"
-      }
-    }   
-}
+const embed = {
+  "title": "Superhot",
+  "description": "Superhot is an independent first-person shooter video game developed and published by Superhot Team.",
+  "url": "https://meatspin.com",
+  "color": 1405367,
+  "footer": {
+    "icon_url": "https://ksr-ugc.imgix.net/assets/011/609/376/9118166d49e15455e574b7b5c20d2a96_original.png?ixlib=rb-2.1.0&crop=faces&w=1552&h=873&fit=crop&v=1463685320&auto=format&frame=1&q=92&s=f9be7e1636e6f78e1c9aafe4b78c200c",
+    "text": "Superhot Studio"
+  },
+  "thumbnail": {
+    "url": "https://meatspin.com"
+  },
+  "image": {
+    "url": "https://ksr-ugc.imgix.net/assets/011/609/376/9118166d49e15455e574b7b5c20d2a96_original.png?ixlib=rb-2.1.0&crop=faces&w=1552&h=873&fit=crop&v=1463685320&auto=format&frame=1&q=92&s=f9be7e1636e6f78e1c9aafe4b78c200c"
+  },
+  "author": {
+    "name": "Superhot Studio",
+    "url": "https://superhotgame.com",
+    "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png"
+  }
+};
+channel.send({ embed });
